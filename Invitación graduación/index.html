@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Graduación 🎓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MODAL DE BIENVENIDA -->
+  <div id="welcome-modal">
+    <div class="welcome-box">
+      <h2>🎓 Bienvenidos a la invitación</h2>
+      <p><strong>Dayana, Alexis y Derek</strong><br>Graduación Universitaria</p>
+      <button id="enter-btn">Ingresar</button>
+    </div>
+  </div>
+
+  <!-- MÚSICA -->
+  <audio id="music" loop>
+    <source src="musica/crepusculo.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- HERO PRINCIPAL -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h2>¡Nos graduamos! 🎓</h2>
+      <h1>Dayana, Alexis & Derek</h1>
+      <p class="fecha">22 de noviembre 2025 — Universidad</p>
+      <div id="countdown">
+        <div><span id="days">00</span><p>Días</p></div>
+        <div><span id="hours">00</span><p>Horas</p></div>
+        <div><span id="minutes">00</span><p>Minutos</p></div>
+        <div><span id="seconds">00</span><p>Segundos</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENSAJE FILOSÓFICO -->
+  <section class="mensaje">
+    <blockquote>
+      “No hay viento favorable para quien no sabe a dónde va.”
+      <span>— Séneca</span>
+    </blockquote>
+    <p>Después de años de esfuerzo, llega el momento de alzar las velas y navegar hacia nuevos horizontes, con la sabiduría como guía.</p>
+  </section>
+<!-- Galería de Recuerdos -->
+<section class="galeria">
+  <h2>📸 Nuestros Recuerdos</h2>
+  <div class="slideshow-container">
+
+    <div class="slide fade">
+      <img src="fotos/foto1.jpg" alt="Foto 1">
+    </div>
+
+    <div class="slide fade">
+      <img src="fotos/foto2.jpg" alt="Foto 2">
+    </div>
+
+    <div class="slide fade">
+      <img src="fotos/foto3.jpg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.1.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.2.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.5.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.7.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.8.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/2.9.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/3.1 (2).jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/3.2.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/3.3.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/3.4.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/3.5.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/4.1.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/4.2.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/4.6.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/5.2.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/5.3.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/5.5.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/5.7.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/5.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/6.1.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/6.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/7.1.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/7.7.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/7.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/8.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/9.1.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/9.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/10.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/11.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/12.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/13.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/14.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/15.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/16.jpg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/17.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/18.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/19.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/20.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/21.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/22.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/23.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/24.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/25.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/26.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/27.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/28.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/30.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/31.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/32.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/33.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/34.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/35.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/36.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/37.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/38.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/39.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/40.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/41.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/42.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/43.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/44.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/45.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/46.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/47.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/48.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/49.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/50.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/51.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/52.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/53.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/54.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/55.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/56.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/57.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/58.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/59.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/60.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/61.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/62.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/63.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/64.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/65.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/66.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/67.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/68.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/69.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/70.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/71.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/72.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/73.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/74.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/75.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/76.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/77.jpeg" alt="Foto 3">
+    </div>
+    <div class="slide fade">
+      <img src="fotos/79.jpeg" alt="Foto 3">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</section>
+
+
+
+  <!-- LUGARES -->
+  <section class="info">
+    <h2>📍 Lugares del evento</h2>
+    <div class="locations">
+      <div class="location-card misa">
+        <h3>⛪ Misa de Graduación</h3>
+        <p>Avenida de las Torres s/n esq. C. Tollin, Tlatelco, Chimalhuacán.</p>
+        <a href="https://maps.app.goo.gl/yT3wAHqMkQGiGcx68" target="_blank" class="maps-btn">🗺️ Ver en Google Maps</a>
+      </div>
+      <div class="location-card fiesta">
+        <h3>🎉 Fiesta de Celebración</h3>
+        <p>Jardín Doña Jose<br>C. Gregorio Melero 30, Tlatelco, Chimalhuacán.</p>
+        <a href="https://maps.app.goo.gl/6hsivJX6NvGECPbB7" target="_blank" class="maps-btn">🗺️ Ver en Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ITINERARIO -->
+  <section class="itinerario">
+    <h2>ITINERARIO</h2>
+    <p class="subtexto">¡No te lo puedes perder!</p>
+    <div class="nombres">
+      <h3>DAYANA</h3><span>&</span><h3>ALEXIS & DEREK</h3>
+    </div>
+    <div class="itinerario-container">
+      <div class="izquierda">
+        <p>MISA</p><p>COCTEL</p><p>RECEPCIÓN</p><p>COMIDA</p>
+      </div>
+      <div class="linea"></div>
+      <div class="derecha">
+        <p>12:00 p.m.</p><p>5:00 p.m.</p><p>6:00 p.m.</p><p>7:00 p.m.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="dresscode">
+    <h2>DRESS CODE</h2>
+    <div class="dress-img">
+      <img src="fotos/dresscode.png" alt="Dress code">
+    </div>
+    <div class="dress-text">
+      <h3>CASUAL ELEGANTE</h3>
+      <p>Hombres: Camisa o guayabera con pantalón formal.</p>
+      <p>Mujeres: Vestido o conjunto cómodo y con estilo.</p>
+    </div>
+  </section>
+
+  <!-- CONFIRMACIÓN -->
+  <section class="confirm">
+    <h2>¿Podrás acompañarnos?</h2>
+    <div class="buttons">
+      <a href="https://wa.me/5571650660?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20graduación%20🎓" class="yes">✅ Asistiré</a>
+      <a href="https://wa.me/5571650660?text=Hola,%20lamentablemente%20no%20podré%20asistir%20😔" class="no">🚫 No asistiré</a>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>✨ Con cariño, familia Maya ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
